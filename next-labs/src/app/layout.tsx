@@ -39,7 +39,7 @@ export default function RootLayout({
               <li className="mr-4">
                 <Link
                   href="/"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white"
                 >
                   Home
                 </Link>
@@ -47,7 +47,7 @@ export default function RootLayout({
               <li className="mr-4">
                 <Link
                   href="/profile"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white"
                 >
                   Profile
                 </Link>
@@ -55,7 +55,7 @@ export default function RootLayout({
               <li className="mr-4">
                 <Link
                   href="/upload"
-                  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white"
                 >
                   Upload
                 </Link>

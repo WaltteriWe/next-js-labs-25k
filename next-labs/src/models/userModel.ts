@@ -1,8 +1,8 @@
-import promisePool from "@/app/lib/db";
+import promisePool from "@/lib/db";
 import { ResultSetHeader, RowDataPacket } from "mysql2";
 import { UserWithLevel, User, UserWithNoPassword } from "hybrid-types/DBTypes";
 import { UserDeleteResponse } from "hybrid-types/MessageTypes";
-import CustomError from "@/app/classes/CustomError";
+import CustomError from "@/classes/CustomError";
 
 const getUserById = async (id: number): Promise<UserWithNoPassword> => {
   const [rows] = await promisePool.execute<

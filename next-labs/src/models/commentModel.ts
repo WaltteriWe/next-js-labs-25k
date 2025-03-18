@@ -1,9 +1,9 @@
 import { UserLevel, Comment } from "hybrid-types/DBTypes";
 import { MessageResponse } from "hybrid-types/MessageTypes";
 import { ResultSetHeader, RowDataPacket } from "mysql2";
-import promisePool from "@/app/lib/db";
-import CustomError from "@/app/classes/CustomError";
-import { ERROR_MESSAGES } from "@/app/utils/errorMessages";
+import promisePool from "@/lib/db";
+import CustomError from "@/classes/CustomError";
+import { ERROR_MESSAGES } from "@/utils/errorMessages";
 
 // Request a list of comments
 const fetchAllComments = async (): Promise<Comment[]> => {
